@@ -23,7 +23,7 @@ $jumbotron-bg: white;
 }
 
 .jumbotron {
-	background: url(image_path('city-crowd-shot.jpg')) 100% 50%;
+	background: image-url("city-crowd-shot.jpg") 100% 50%;
 	background-color: #F9F9F9;
 }
 .jumbotron h1 {
