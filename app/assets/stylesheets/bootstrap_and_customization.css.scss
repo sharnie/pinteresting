@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: #ecf0f1;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #c0392b;
+$brand-primary: #c0392b;
+$jumbotron-bg: white;
+
+@import 'bootstrap';
+
+.center {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.jumbotron {
+	background: url('/assets/city-crowd-shot.jpg') 100% 50%;
+}
+.jumbotron h1 {
+	color: #fff;
+}
+.jumbotron p {
+	color: #fff;
+}
+.navbar-collapse {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.active {
+	background-color: #F9F9F9;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #F9F9F9;
+}
