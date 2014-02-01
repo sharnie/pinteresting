@@ -1,4 +1,13 @@
 <div class="jumbotron center">
+	
 	<h1>Welcome to Pinteresting</h1>
-	<p>Click here to <%= link_to "Login", "#", class: "btn btn-default btn-lg" %> or <%= link_to "Sign Up", "#", class: "btn btn-primary btn-lg" %></p>
+	<% if user_signed_in? %>
+		<p>Learn Ruby on Rails Programming with Sharnie Ivery</p>
+	<% else %>
+		<p>Click here to
+			<%= link_to "Login", new_user_session_path, class: "btn btn-default btn-lg" %>
+			or 
+			<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
+	<% end %>
+
 </div>
